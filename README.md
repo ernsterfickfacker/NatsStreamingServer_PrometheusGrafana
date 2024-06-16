@@ -1,5 +1,5 @@
 ﻿# Nats-Streaming Server with Prometheus, Grafana metrics
-To run Nats-Streaming Server
+## To run Nats-Streaming Server
 1. Create database in PosgreSql
 postgre_db.go 
 if DB exists: DROP table delivery, items, order_table, payment
@@ -7,7 +7,7 @@ create script createDB.sql
 2. go run "L0\runner\main.go"
 3. go run src/publisher.go
 
-To run prometheus and grafana
+## To run prometheus and grafana
 1. docker-compose up -d
 2. go run "L0\runner\main.go"
 3. go run src/publisher.go
