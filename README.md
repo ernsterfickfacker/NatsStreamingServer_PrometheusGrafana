@@ -1,15 +1,16 @@
 ﻿# Nats-Streaming Server with Prometheus, Grafana metrics
+To run Nats-Streaming Server
 1. Create database in PosgreSql
 postgre_db.go 
 URL: connStr := "postgres://postgres:admin@localhost:5432/postgres?sslmode=disable" 
 if DB exists: DROP table delivery, items, order_table, payment
 create script createDB.sql
-2. go run "L0-main\runner\main.go"
+2. go run "L0\runner\main.go"
 3. go run src/publisher.go
 
 To run prometheus and grafana
 1. docker-compose up -d
-2. go run "c:\Users\Мария\Desktop\L0\runner\main.go"
+2. go run "L0\runner\main.go"
 3. go run src/publisher.go
 4. http://localhost:9090 - prometheus
 5. http://localhost:3000/login sign in with admin login  (admin admin or admin "")
