@@ -17,7 +17,7 @@ To run prometheus and grafana
 6. change password
 7. sign in with new password
 8. add data source prometheus
-9. prometheus server URL * http://localhost:9090 or 127.0.0.1 or http://host.docker.internal:9090 
+9. prometheus server URL * http://localhost:9090 or 127.0.0.1 or http://host.docker.internal:9090
 10.building dashboard
 
 Пример отображения в Prometheus go_memstats_alloc_bytes
