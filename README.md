@@ -12,7 +12,7 @@ To run prometheus and grafana
 2. go run "c:\Users\Мария\Desktop\L0\runner\main.go"
 3. go run src/publisher.go
 4. http://localhost:9090 - prometheus
-5. http://localhost:3000/login sign in with admin login  ()
+5. http://localhost:3000/login sign in with admin login  (admin admin or admin "")
 6. change password
 7. sign in with new password
 8. add data source prometheus
