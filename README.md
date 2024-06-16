@@ -2,7 +2,6 @@
 To run Nats-Streaming Server
 1. Create database in PosgreSql
 postgre_db.go 
-URL: connStr := "postgres://postgres:admin@localhost:5432/postgres?sslmode=disable" 
 if DB exists: DROP table delivery, items, order_table, payment
 create script createDB.sql
 2. go run "L0\runner\main.go"
@@ -18,8 +17,7 @@ To run prometheus and grafana
 7. sign in with new password
 8. add data source prometheus
 9. prometheus server URL * http://localhost:9090 or 127.0.0.1 or http://host.docker.internal:9090
-
-10.building dashboard
+10. building dashboard
 
 Пример отображения в Prometheus go_memstats_alloc_bytes
  ![image](https://github.com/ernsterfickfacker/NatsStreamingServer_PrometheusGrafana/assets/93219479/c56355e9-d8d4-43ef-bbec-7d1cde55ae61)
